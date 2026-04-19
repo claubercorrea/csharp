@@ -75,7 +75,7 @@ dotnet run
 ## 🖼️ Imagens do Projeto
 
 ``` html
-<img src="../ListaFilmes/ListaFilme/img/licensed-image.jfif/>
+
 
 ```
 <img src="./ListaFilme/img/meu.png" />
