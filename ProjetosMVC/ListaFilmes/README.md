@@ -75,10 +75,10 @@ dotnet run
 ## 🖼️ Imagens do Projeto
 
 ``` html
-<img src="./ListaFilme/img/licensed-image.jfif" />
-<img src="./ListaFilme/img/meu.png" />
-```
+<img src="./ListaFilme/img/licensed-image.jfif />
 
+```
+<img src="./ListaFilme/img/meu.png" />
 ------------------------------------------------------------------------
 
 ## 📌 Observações
