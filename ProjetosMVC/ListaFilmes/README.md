@@ -1,199 +1,56 @@
+🎬 Lista de Filmes — ASP.NET Core MVC
+Este é um sistema de gerenciamento de filmes (CRUD) desenvolvido para demonstrar competências em desenvolvimento backend com o ecossistema .NET, integração com banco de dados SQL Server e manipulação dinâmica de interface.
 
-## Table of Contents
 
-<details>
+🚀 Funcionalidades
+CRUD Completo: Cadastro, listagem, edição e exclusão de filmes.
 
-   <!-- <summary>Contents</summary>
+Busca Dinâmica: Filtros simultâneos por título e gênero.
 
-1. [📂 Organização do Repositório](#-organizao-do-repositrio)
-   1. [🌐 [Sistemas Web / MVC](./Contatos/C)](#-sistemas-web--mvccontatosc)
-   1. [⚙️ Outros Projetos (Em breve)](#-outros-projetos-em-breve)
-1. [🛠️ Tecnologias Principais](#-tecnologias-principais)
-1. [🎯 Objetivo](#-objetivo)
-1. [✉️ Contato](#-contato)
+Destaque de Busca (Highlight): Script personalizado para destacar o termo pesquisado na tabela.
 
-</details>
+Interface Responsiva: Desenvolvida com Bootstrap para adaptação em diferentes tamanhos de tela.
 
-## Table of Contents
+Gerenciamento de Identidade: Lógica de RESEED para reiniciar a contagem de IDs ao esvaziar a tabela.
 
-<details>
+🛠️ Tecnologias Utilizadas
+Linguagem: C#
 
-   <summary>Contents</summary>
+Framework: ASP.NET Core 8 MVC
 
-- [📇 Gerenciador de Contatos - ASP.NET Core MVC](#-gerenciador-de-contatos---aspnet-core-mvc)
-- [🚀 Meus Projetos de Desenvolvimento .NET](#-meus-projetos-de-desenvolvimento-net)
-  - [📂 Organização do Repositório](#-organização-do-repositório)
-    - [🌐 Sistemas Web / MVC](#-sistemas-web--mvc)
-    - [⚙️ Outros Projetos (Em breve)](#️-outros-projetos-em-breve)
-  - [🛠️ Tecnologias Principais](#️-tecnologias-principais)
-  - [🎯 Objetivo](#-objetivo)
-  - [✉️ Contato](#️-contato)
+ORM: Entity Framework Core
 
-</details>
+Banco de Dados: SQL Server
+  <img src="./ListaFilme/img/licensed-image.jfif" />
+Frontend: HTML5, CSS3, JavaScript e Bootstrap
 
-## Table of Contents
+A imagem do projeto
+  <img src="./ListaFilme/img/meu.png" />
+Arquitetura: MVC (Model-View-Controller)
 
-<details>
+🏗️ Como rodar o projeto
+Clonar o repositório:
 
-   <summary>Contents</summary>
+Bash
+git clone https://github.com/claubercorrea/ListaFilme.git
+Configurar o Banco de Dados:
+Verifique a ConnectionString no arquivo appsettings.json e ajuste para o seu servidor local.
 
-- [📇 Gerenciador de Contatos - ASP.NET Core MVC](#-gerenciador-de-contatos---aspnet-core-mvc)
-- [🚀 Meus Projetos de Desenvolvimento .NET](#-meus-projetos-de-desenvolvimento-net)
-  - [📂 Organização do Repositório](#-organização-do-repositório)
-    - [🌐 Sistemas Web / MVC](#-sistemas-web--mvc)
-    - [⚙️ Outros Projetos (Em breve)](#️-outros-projetos-em-breve)
-  - [🛠️ Tecnologias Principais](#️-tecnologias-principais)
-  - [🎯 Objetivo](#-objetivo)
-  - [✉️ Contato](#️-contato)
+Executar as Migrations:
+No Console do Gerenciador de Pacotes, execute:
 
-</details>
+Bash
+Update-Database 
+Rodar a aplicação:
+Pressione F5 no Visual Studio ou execute dotnet run.
 
-## Table of Contents
+📂 Estrutura do Projeto
+Controllers/: Lógica de controle e rotas da aplicação.
 
-<details>
+Models/: Definição das classes de dados e regras de validação.
 
-   <summary>Contents</summary>
+Data/: Contexto do Entity Framework e configurações de banco.
 
-- [📇 Gerenciador de Contatos - ASP.NET Core MVC](#-gerenciador-de-contatos---aspnet-core-mvc)
-- [🚀 Meus Projetos de Desenvolvimento .NET](#-meus-projetos-de-desenvolvimento-net)
-  - [📂 Organização do Repositório](#-organização-do-repositório)
-    - [🌐 Sistemas Web / MVC](#-sistemas-web--mvc)
-    - [⚙️ Outros Projetos (Em breve)](#️-outros-projetos-em-breve)
-  - [🛠️ Tecnologias Principais](#️-tecnologias-principais)
-  - [🎯 Objetivo](#-objetivo)
-  - [✉️ Contato](#️-contato)
+Views/: Páginas da interface (Razor Pages).
 
-</details>
-
-## Table of Contents
-
-<details>
-
-   <summary>Contents</summary>
-
-- [📇 Gerenciador de Contatos - ASP.NET Core MVC](#-gerenciador-de-contatos---aspnet-core-mvc)
-- [🚀 Meus Projetos de Desenvolvimento .NET](#-meus-projetos-de-desenvolvimento-net)
-  - [📂 Organização do Repositório](#-organização-do-repositório)
-    - [🌐 Sistemas Web / MVC](#-sistemas-web--mvc)
-    - [⚙️ Outros Projetos (Em breve)](#️-outros-projetos-em-breve)
-  - [🛠️ Tecnologias Principais](#️-tecnologias-principais)
-  - [🎯 Objetivo](#-objetivo)
-  - [✉️ Contato](#️-contato)
-
-</details>
-
-## Table of Contents
-
-<details>
-
-   <summary>Contents</summary>
-
-- [📇 Gerenciador de Contatos - ASP.NET Core MVC](#-gerenciador-de-contatos---aspnet-core-mvc)
-- [🚀 Meus Projetos de Desenvolvimento .NET](#-meus-projetos-de-desenvolvimento-net)
-  - [📂 Organização do Repositório](#-organização-do-repositório)
-    - [🌐 Sistemas Web / MVC](#-sistemas-web--mvc)
-    - [⚙️ Outros Projetos (Em breve)](#️-outros-projetos-em-breve)
-  - [🛠️ Tecnologias Principais](#️-tecnologias-principais)
-  - [🎯 Objetivo](#-objetivo)
-  - [✉️ Contato](#️-contato)
-
-</details>
-
-## Table of Contents
-
-<details>
-
-   <summary>Contents</summary>
-
-- [📇 Gerenciador de Contatos - ASP.NET Core MVC](#-gerenciador-de-contatos---aspnet-core-mvc)
-- [🚀 Meus Projetos de Desenvolvimento .NET](#-meus-projetos-de-desenvolvimento-net)
-  - [📂 Organização do Repositório](#-organização-do-repositório)
-    - [🌐 Sistemas Web / MVC](#-sistemas-web--mvc)
-    - [⚙️ Outros Projetos (Em breve)](#️-outros-projetos-em-breve)
-  - [🛠️ Tecnologias Principais](#️-tecnologias-principais)
-  - [🎯 Objetivo](#-objetivo)
-  - [✉️ Contato](#️-contato)
-
-</details>
-
-## Table of Contents
-
-<details>
-
-   <summary>Contents</summary>
-
-- [📇 Gerenciador de Contatos - ASP.NET Core MVC](#-gerenciador-de-contatos---aspnet-core-mvc)
-- [🚀 Meus Projetos de Desenvolvimento .NET](#-meus-projetos-de-desenvolvimento-net)
-  - [📂 Organização do Repositório](#-organização-do-repositório)
-    - [🌐 Sistemas Web / MVC](#-sistemas-web--mvc)
-    - [⚙️ Outros Projetos (Em breve)](#️-outros-projetos-em-breve)
-  - [🛠️ Tecnologias Principais](#️-tecnologias-principais)
-  - [🎯 Objetivo](#-objetivo)
-  - [✉️ Contato](#️-contato)
-
-</details>
-
-## Table of Contents
-
-<details> -->
-
-   <summary>Contents</summary>
-
-- [📇 Gerenciador de Contatos - ASP.NET Core MVC](#-gerenciador-de-contatos---aspnet-core-mvc)
-- [🚀 Meus Projetos de Desenvolvimento .NET](#-meus-projetos-de-desenvolvimento-net)
-  - [📂 Organização do Repositório](#-organização-do-repositório)
-    - [🌐 Sistemas Web / MVC](#-sistemas-web--mvc)
-    - [⚙️ Outros Projetos (Em breve)](#️-outros-projetos-em-breve)
-  - [🛠️ Tecnologias Principais](#️-tecnologias-principais)
-  - [🎯 Objetivo](#-objetivo)
-  - [✉️ Contato](#️-contato)
-
-</details>
-# 📇 Gerenciador de Contatos - ASP.NET Core MVC
-
-Este é um projeto completo de gerenciamento de contatos (CRUD) desenvolvido para demonstrar competências em **C#**, **ASP.NET MVC** e persistência de dados com **Entity Framework Core**. O sistema permite cadastrar, listar, editar e remover contatos de forma intuitiva e responsiva.
-
----
-
-# 🚀 Meus Projetos de Desenvolvimento .NET
-
-Bem-vindo ao meu repositório de estudos e projetos! Aqui concentro minhas aplicações focadas em backend, arquitetura de software e boas práticas com a stack Microsoft.
-
----
-
-## 📂 Organização do Repositório
-
-Neste repositório, os projetos estão divididos por categorias para facilitar a navegação:
-
-### 🌐 [Sistemas Web / MVC](./Contatos/C)
-* **Gerenciador de Contatos:** Um CRUD completo utilizando ASP.NET Core MVC, Entity Framework e SQL Server. Possui interface responsiva e lógica de persistência de dados.
-
-### ⚙️ Outros Projetos (Em breve)
-* APIs RESTful, Integrações com Bancos de Dados e Microserviços.
-
----
-
-## 🛠️ Tecnologias Principais
-
-<div align="left">
-  <img src="./Contatos/img/Captura de tela 2026-02-18 001010.png" />
-  <img src="https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-</div>
-
----
-
-## 🎯 Objetivo
-Este repositório tem como foco demonstrar minha evolução como **Desenvolvedor Backend**, aplicando padrões como:
-- [x] Injeção de Dependência.
-- [x] Migrations para versionamento de banco de dados.
-- [x] Padrão MVC (Model-View-Controller).
-- [x] Clean Code e organização de pastas.
-
----
-
-## ✉️ Contato
-
-* **LinkedIn:** [Clauber Correa Rodrigues Valladares](https://www.linkedin.com/in/clauberdev/)
-* **E-mail:** [claubinho80@gmail.com]
+wwwroot/: Arquivos estáticos (CSS, JS, Imagens).
